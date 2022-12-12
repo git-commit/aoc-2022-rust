@@ -1,0 +1,60 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "test-mod tests",
+            "program": "${workspaceFolder}/d11/target/debug/deps/d11-8197e36fed905c80",
+            "args": [
+                "tests",
+                "--nocapture"
+            ],
+            "cwd": "${workspaceFolder}/d11",
+            "sourceMap": {},
+            "sourceLanguages": [
+                "rust"
+            ],
+            "env": {
+                "RUST_BACKTRACE": "short",
+                "ELECTRON_RUN_AS_NODE": "1",
+                "MallocNanoZone": "0",
+                "USER": "max",
+                "COMMAND_MODE": "unix2003",
+                "__CFBundleIdentifier": "com.microsoft.VSCode",
+                "PATH": "/opt/homebrew/opt/python@3.10/bin:/Users/max/.cargo/bin:/Users/max/go/bin/:/Users/max/.rbenv/shims:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/max/.cargo/bin:/Users/max/Library/Application Support/JetBrains/Toolbox/scripts:/Users/max/Library/Android/sdk/emulator:/Users/max/Library/Android/sdk/platform-tools",
+                "LOGNAME": "max",
+                "SSH_AUTH_SOCK": "/private/tmp/com.apple.launchd.IwJ6XhwNp9/Listeners",
+                "HOME": "/Users/max",
+                "SHELL": "/bin/zsh",
+                "TMPDIR": "/var/folders/xz/cm4s_mw91h961tqfzgjl_6x40000gn/T/",
+                "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0",
+                "XPC_SERVICE_NAME": "application.com.microsoft.VSCode.72726468.72726474",
+                "XPC_FLAGS": "0x0",
+                "ORIGINAL_XDG_CURRENT_DESKTOP": "undefined",
+                "VSCODE_CWD": "/",
+                "VSCODE_NLS_CONFIG": "{\"locale\":\"en-de\",\"availableLanguages\":{},\"_languagePackSupport\":true}",
+                "VSCODE_CODE_CACHE_PATH": "/Users/max/Library/Application Support/Code/CachedData/5235c6bb189b60b01b1f49062f4ffa42384f8c91",
+                "VSCODE_IPC_HOOK": "/Users/max/Library/Application Support/Code/1.74.0-main.sock",
+                "VSCODE_PID": "3308",
+                "SHLVL": "0",
+                "PWD": "/",
+                "OLDPWD": "/",
+                "HOMEBREW_PREFIX": "/opt/homebrew",
+                "HOMEBREW_CELLAR": "/opt/homebrew/Cellar",
+                "HOMEBREW_REPOSITORY": "/opt/homebrew",
+                "MANPATH": "/opt/homebrew/share/man::",
+                "INFOPATH": "/opt/homebrew/share/info:",
+                "STARSHIP_SHELL": "zsh",
+                "STARSHIP_SESSION_KEY": "2518038961371322",
+                "RBENV_SHELL": "zsh",
+                "ANDROID_SDK_ROOT": "/Users/max/Library/Android/sdk",
+                "JAVA_HOME": "/Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home",
+                "PYTHONPYCACHEPREFIX": "/Users/max/.cache/cpython/",
+                "_": "/Applications/Visual Studio Code.app/Contents/MacOS/Electron",
+                "VSCODE_AMD_ENTRYPOINT": "vs/workbench/api/node/extensionHostProcess",
+                "VSCODE_HANDLES_UNCAUGHT_ERRORS": "true",
+                "APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL": "true"
+            }
+        }
+    ]
+}

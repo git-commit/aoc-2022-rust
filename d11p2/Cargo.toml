@@ -1,0 +1,19 @@
+[package]
+name = "d11-part2"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+itertools = "0.10.5"
+num-bigint = "0.4.3"
+
+# cargo run --bin d11p2
+[[bin]]
+name = "d11p2"
+path = "src/d11p2.rs"
+
+[[bin]]
+name = "d11p2u64"
+path = "src/d11p2u64.rs"
